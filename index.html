@@ -171,8 +171,107 @@
 
 
 
+<!-- Box model -->
+    <h2>Box Model</h2>
+    <p>El box model de CSS es el que indica el como se posicionan los elementos de la pagina web, todo elemento va a tener <strong>un margin, un border, un padding</strong> y finalmente <strong>el contenido</strong></p>
 
 
+<!-- Margin -->
+    <h3>Margin</h3>
+    <p>Esta propiedad genera un margen o <strong>espacio por fuera de los elementos</strong>, se puede definir individualmente en donde se quiere aplicar el margen </p>
+    <ul>
+        <li>Margin-top</li>
+        <li>Margin-bottom</li>
+        <li>Margin-left</li>
+        <li>Margin-right</li>
+    </ul>
+    <p>Pero estas características se pueden indicar en una sola linea con solo <strong>margin recibiendo 4 valores, el primero Margin-top, el segundo Margin-right, el tercero Margin-bottom y el cuarto Margin-left</strong> </p>
+    <section class="margin">
+        Esté texto tiene la propiedad de: margin: 15px 20px 25px 30px;
+    </section>
+
+    <p>Otra característica de margin es que si en vez de 4 valores, <strong> se coloca 1 valor</strong>, entonces todos los lados tendrán ese mismo valor </p>
+    <section class="margin_un_valor">
+        Esté texto tiene la propiedad de: margin: 10px;
+    </section>
+
+    <p>Y si margin recibe <strong>2 valores</strong>, entonces el primer valor será el margin vertical, y el segundo será en margin horizontal</p>
+    <section class="margin_dos_valores">
+        Esté texto tiene la propiedad de: margin: 15px 50px;;
+    </section>
+<hr>
+
+
+<!-- Padding -->
+    <h3>Padding</h3>
+    <p>Padding genera un margen o <strong>espacio por dentro de los elementos</strong> y se pueden añadir las mismas características que con margin</p>
+    <ul>
+        <li>Padding-top</li>
+        <li>Padding-bottom</li>
+        <li>Padding-left</li>
+        <li>Padding-right</li>
+    </ul>
+    <p>Igualmente se pueden indicar en una sola línea con solo <strong>padding recibiendo 4 valores, el primero Padding-top, el segundo Padding-right, el tercero Padding-bottom y el cuarto Padding-left</strong> </p>
+    <section class="padding">
+        Esté texto tiene la propiedad de: padding: 30px 25px 20px 15px;
+    </section>
+
+    <p>E igual que margin, si padding recibe <strong>solo un valor</strong> entonces todos los lados tendrán ese mismo valor </p>
+    <section class="padding_un_valor">
+        Esté texto tiene la propiedad de: padding: 10px;
+    </section>
+    <p>Y si recibe <strong>dos valores</strong> entonces el primer valor será el padding vertical, y el segundo será en padding horizontal </p>
+    <section class="padding_dos_valores">
+        Esté texto tiene la propiedad de: padding: 15px 50px;
+    </section>
+<hr>
+
+
+<!-- Padding y Margin -->
+    <h3>Padding y Margin</h3>
+    <p>Mezclando estas dos propiedades con border, se observa que está ultima se ubica entre margin y padding </p>
+    <section class="margin_padding">
+        Esté texto tiene ambas propiedades, un margin de 30px y un padding de 30px combinadas junto con border
+    </section>
+<hr>
+
+
+<!-- Height -->
+    <h3>Height</h3>
+    <p>Está propiedad permite dar una altura a los elementos</p>
+    <p class="height">Esté párrafo tiene la propiedad de height: 200px;</p>
+<hr>
+
+
+<!-- Width -->
+    <h3>Width</h3>
+    <p>Está propiedad permite definir el ancho de los elementos</p>
+    <p class="width">En este caso, esté párrafo tiene la propiedad de height: 90px;</p>
+    <p>Pero este texto tiene palabras que salen de los 50 px del elemento, para corregir esto se utiliza la propiedad de overflow</p>
+<hr>
+
+
+<!-- Overflow -->
+    <h3>Overflow</h3>
+    <p>En el caso anterior como el elemento era más pequeño que algunas palabras, estas se salían, para arreglar en este caso se va a hacer uso de la propiedad de overflow, la cual tiene 3 estados </p>
+    <p class="visible">Primer estado overflow: visible; valor por defecto</p>
+    <p class="hidden">Segundo estado overflow: hidden;</p>
+    <p>Que oculta lo que no alcanza a estar dentro del elemento</p>
+    <p class="scroll">Tercer estado overflow: scroll;</p>
+    <p>Crea una barra de desplazamiento para poder visualizar todo lo que hay en el elemento</p>
+<hr>
+
+
+<!-- Outline -->
+    <h2>Outline</h2>
+    <p>Es un estilo de border que se dentro del margin, pegado al contenido y usa las mismas propiedades de border</p>
+    <p class="outline">Este texto tiene la propiedad de: <strong>margin:</strong> 40px; <strong>padding:</strong> 20px; <strong>background-color:</strong> #f0588b; <strong>border:</strong> 5px solid #0a1172; <strong>outline:</strong> 5px solid #369622; </p>
+<hr>
+
+
+    <p>Para saber el tamaño de un elemento de la página se deben sumar todas las características mencionadas antes, teniendo
+        en cuenta que cuando se define un ancho o largo para el elemento, se refiere al contenido en sí y no a todo el elemento junto con margin y lo demás</p>
+<hr>
 </body>
 </html>
 
