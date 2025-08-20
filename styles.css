@@ -1,3 +1,111 @@
 body{
     font-size: 1.4rem;
 }
+
+
+
+
+/*  Pseudo elementos  */
+
+/* first_line aplica estilos a la primer línea de un párrafo*/
+.first_line::first-line{
+    color: #ffffff;
+    background-color: #509fe9;
+}
+.first_line{
+    font-size: 1.5rem;
+}
+
+
+/* .first_letter selecciona la primera letra más grande*/
+.first_letter::first-letter { /* Selector primera letra */
+    font-size: 2rem;
+    color: #f563e9;
+}
+
+
+/* Before coloca un elemento antes del párrafo*/
+.before::before{
+    content: '👉 Texto dentro de before en css ';
+    color: #1b720a;
+    font-size: 1.5rem;
+}
+
+
+/* After coloca un elemento después del párrafo*/
+.after::after{
+    content: 'Texto dentro de after en css 👈';
+    color: #0a1172;
+    font-size: 1.5rem;
+}
+
+
+/* After coloca un elemento después del párrafo*/
+.selection::selection{
+    background-color: #7cd65979;
+    color: #ff5e00;
+}
+
+
+
+
+/* Pseudo-clases estructurales */
+.pseudo{
+    color: #ff0000;
+}
+
+
+/* 1 first_child*/
+.first_child :first-child{
+    color: #2ab0ee;
+    font-size: 1.5rem;
+}
+
+
+/* 2 last_child*/
+.last_child :last-child{
+    font-size: 1.5rem;
+    color: #da48d2;
+}
+
+
+/* 3 only-child*/
+.only_child :only-child{
+    color: #3aee2a;
+    font-size: 1.5rem;
+}
+
+
+/* 4 first-of-type*/
+.first_type :first-of-type{
+    color: #25c59d;
+    font-size: 1.5rem;
+}
+
+
+/* 5 last-of-type*/
+.last_type :last-of-type{
+    color: #92ee2a;
+    font-size: 1.5rem;
+}
+
+
+/* 6 only-of-type*/
+.only_type :only-of-type{
+    font-size: 1.5rem;
+    color: #9848da;
+}
+
+
+/* 7 nth-of-type(n)*/
+.nth_type :nth-of-type(2){
+    color: #eeb02a;
+    font-size: 1.5rem;
+}
+
+
+/* 8 last_child*/
+.nth_last :nth-last-of-type(3){
+    font-size: 1.5rem;
+    color: #df258b;
+}
