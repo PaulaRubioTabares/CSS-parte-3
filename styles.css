@@ -141,11 +141,46 @@ body{
     background-color: #ffc3a1;
 }
 
-/* margin_padding */
+/* Margin Padding */
 .margin_padding{
     margin: 30px;
     padding: 30px;
     border: 5px solid #e26d94;
     background-color: #5cc2cf;
+}
+
+
+/* Height */
+.height{
+    background-color: #72700a;
+    color: #ffffff;
+    height: 200px;
+}
+
+/* Width */
+.width, .visible, .hidden, .scroll{
+    background-color: #c2b399;
+    width: 90px;
+}
+
+/* Overflow */
+.visible{
+    overflow: visible;
+}
+.hidden{
+    overflow: hidden;
+}
+.scroll{
+    overflow: scroll;
+}
+
+/* Outline */
+.outline{
+    margin: 40px;
+    padding: 20px;
+    background-color: #f0588b;
+    border: 5px solid #0a1172;
+    outline: 5px solid #369622;
+
 }
 
