@@ -1,3 +1,43 @@
 body{
     font-size: 1.4rem;
 }
+
+
+
+/*  Pseudo elementos  */
+
+/* first_line aplica estilos a la primer línea de un párrafo*/
+.first_line::first-line{
+    color: #ffffff;
+    background-color: #509fe9;
+}
+.first_line{
+    font-size: 1.5rem;
+}
+
+/* .first_letter selecciona la primera letra más grande*/
+.first_letter::first-letter { /* Selector primera letra */
+    font-size: 2rem;
+    color: #f563e9;
+}
+
+/* Before coloca un elemento antes del párrafo*/
+.before::before{
+    content: '👉 Texto dentro de before en css ';
+    color: #1b720a;
+    font-size: 1.5rem;
+}
+
+/* After coloca un elemento después del párrafo*/
+.after::after{
+    content: 'Texto dentro de after en css 👈';
+    color: #0a1172;
+    font-size: 1.5rem;
+}
+
+/* After coloca un elemento después del párrafo*/
+.selection::selection{
+    background-color: #7cd65979;
+    color: #ff5e00;
+}
+
