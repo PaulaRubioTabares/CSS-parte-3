@@ -16,9 +16,11 @@
 
 
 
+
 <!-- Pseudo elementos -->
     <h2>Pseudo elementos</h2>
     <p>Estos elementos se usan para aplicar estilos a una parte de un elemento</p>
+
 
 <!-- first_line -->
     <h3>First_line</h3>
@@ -28,25 +30,145 @@
     se aumenta el tamaño de este párrafo</p>
 <hr>
 
+
 <!-- first_letter -->
     <h3>First_letter</h3>
     <p class="first_letter">El segundo elemento es <strong>::first-letter</strong>, el cual selecciona la primera letra de ese párrafo</p>
 <hr>
+
 
 <!-- before -->
     <h3>Before</h3>
     <p class="before">También está el elemento <strong>before</strong>, el cual coloca, depende lo que se coloque en el código de css, un objeto <strong>antes</strong> del elemento principal</p>
 <hr>
 
+
 <!-- after -->
     <h3>After</h3>
     <p class="after">En contraste con before, está el elemento <strong>after</strong>, el cual coloca, depende lo que se coloque en el código de css, un objeto <strong>después</strong> del elemento principal</p>
 <hr>
 
+
 <!-- selection -->
     <h3>Selection</h3>
     <p class="selection">Y también está el elemento <strong>selection</strong>, el cual aplica el estilo al elemento cuando se selecciona con el mouse el texto</p>
 <hr>
+
+
+
+
+<!-- Pseudo-clases estructurales -->
+    <h2>Pseudo clases estructurales</h2>
+    <p>Sirven para seleccionar elementos según la posición en la que estén <br>
+    Para colocar en práctica estas propiedades los elemento a usar se colocarán dentro de secciones</p>
+<hr>
+
+
+<!-- 1 first-child -->
+    <h3 class="pseudo">1.First child </h3>
+    <p>Selecciona el <strong>primer elemento</strong> de esta sección</p>
+    <section class="first_child">
+        <h4>Primer h4 en esta sección</h4>
+        <h4>Segundo h4 en esta sección</h4>
+        <h4>Tercer h4 en esta sección</h4>
+        <p>Primer p en esta sección</p>
+        <p>Segundo p en esta sección</p>
+        <p>Tercer p en esta sección</p>
+    </section>
+<hr>
+
+
+<!-- 2 last-child -->
+    <h3 class="pseudo">2.Last child </h3>
+    <p>Selecciona el <strong>último elemento</strong> de esta sección</p>
+    <section class="last_child">
+        <h4>Primer h4 en esta sección</h4>
+        <h4>Segundo h4 en esta sección</h4>
+        <h4>Tercer h4 en esta sección</h4>
+        <p>Primer p en esta sección</p>
+        <p>Segundo p en esta sección</p>
+        <p>Tercer p en esta sección</p>
+    </section>
+<hr>
+
+
+<!-- 3 only-child  -->
+    <h3 class="pseudo">3.Only child  </h3>
+    <p>Selecciona el <strong>único elemento</strong> de esta sección, si hay más elementos no selecciona ninguno</p>
+    <section class="only_child">
+        <p>Único elemento en esta sección</p>
+    </section>
+<hr>
+
+
+<!-- 4 first-of-type -->
+    <h3 class="pseudo">4.First of type</h3>
+    <p>Selecciona el <strong>primer elemento de cada tipo</strong> en esta sección</p>
+    <section class="first_type">
+        <h4>Primer h4 en esta sección</h4>
+        <h4>Segundo h4 en esta sección</h4>
+        <h4>Tercer h4 en esta sección</h4>
+        <p>Primer p en esta sección</p>
+        <p>Segundo p en esta sección</p>
+        <p>Tercer p en esta sección</p>
+    </section>
+<hr>
+
+
+<!-- 5 last-of-type-->
+    <h3 class="pseudo">5.Last of type</h3>
+    <p>Selecciona el <strong>último elemento de cada tipo</strong> en esa sección</p>
+    <section class="last_type">
+        <h4>Primer h4 en esta sección</h4>
+        <h4>Segundo h4 en esta sección</h4>
+        <h4>Tercer h4 en esta sección</h4>
+        <p>Primer p en esta sección</p>
+        <p>Segundo p en esta sección</p>
+        <p>Tercer p en esta sección</p>
+    </section>
+<hr>
+
+
+<!-- 6 only-of-type-->
+    <h3 class="pseudo">6.only of type</h3>
+    <p>Selecciona un elemento que sea <strong>único en su tipo</strong> en esta sección</p>
+    <section class="only_type">
+        <h4>Primer h4 en esta sección</h4>
+        <h4>Segundo h4 en esta sección</h4>
+        <h4>Tercer h4 en esta sección</h4>
+        <p>Único p en esta sección</p>
+    </section>
+<hr>
+
+
+<!-- 7 nth-of-type(n) -->
+    <h3 class="pseudo">7.Nth-of-type(n)</h3>
+    <p>Selecciona el elemento que esté en <strong>la posición declarada en n</strong> de cada tipo, en este caso el que está en la segunda posición</p>
+    <section class="nth_type">
+        <h4>Primer h4 en esta sección</h4>
+        <h4>Segundo h4 en esta sección</h4>
+        <h4>Tercer h4 en esta sección</h4>
+        <p>Primer p en esta sección</p>
+        <p>Segundo p en esta sección</p>
+        <p>Tercer p en esta sección</p>
+    </section>
+<hr>
+
+
+<!-- 8 nth-last-of-type(n)-->
+    <h3 class="pseudo">8.Nth last of type(n) </h3>
+    <p>Selecciona el elemento que esté en <strong>la posición declarada en n</strong> de abajo para arriba, en este caso es el elemento que está en tercera posición</p>
+    <section class="nth_last">
+        <h4>Primer h4 en esta sección</h4>
+        <h4>Segundo h4 en esta sección</h4>
+        <h4>Tercer h4 en esta sección</h4>
+        <p>Primer p en esta sección</p>
+        <p>Segundo p en esta sección</p>
+        <p>Tercer p en esta sección</p>
+    </section>
+<hr>
+
+
 
 
 
