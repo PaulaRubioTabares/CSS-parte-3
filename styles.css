@@ -2,7 +2,9 @@ body{
     font-size: 1.4rem;
 }
 
-
+h2{
+    color: brown;
+}
 
 
 /*  Pseudo elementos  */
@@ -185,3 +187,121 @@ body{
 }
 
 
+
+
+/* Text shadow */
+.Text_shadow{
+    text-shadow: 5px 5px 4px #852aee;
+}
+
+
+
+/* Enlaces en Css  */
+a{
+    color: #f3f3f3;
+}
+
+/* Enlaces */
+a:link{
+    background-color: darkviolet;
+}
+a:visited{
+    background-color: red;
+}
+a:hover{
+    background-color: forestgreen;
+}
+a:active{
+    background-color:lightsalmon;
+}
+
+
+
+
+/* Listas títulos */
+.lista{
+    color: #ee2a2a;
+}
+.tipo_lista{
+    color: #257c24b2;
+}
+.listas{
+    color: #852aee;
+}
+
+/* list-style-type */
+
+/*                          Listas numéricas*/
+/* decimal */
+.Lista_uno{
+    list-style-type: decimal;
+}
+/*  georgian */
+.Lista_dos{
+    list-style-type: georgian;
+}
+/* lower-roman*/
+.Lista_tres{
+    list-style-type: lower-roman;
+}
+/*  upper-roman */
+.Lista_cuatro{
+    list-style-type: upper-roman;
+}
+
+/*                          Listas alfabéticas*/
+/* decimal */
+.alfabética_uno{
+    list-style-type: lower-alpha;
+}
+/*  georgian */
+.alfabética_dos{
+    list-style-type: upper-alpha;
+}
+/* lower-roman*/
+.alfabética_tres{
+    list-style-type: lower-greek;
+}
+
+/*                                 Listas no ordenadas */
+/* none: Borrar viñetas */
+.List_style_uno{
+    list-style-type: disc;
+}
+
+/*  circle */
+.List_style_dos{
+    list-style-type: circle;
+}
+/*  square */
+.List_style_tres{
+    list-style-type: square;
+}
+
+/* disc */
+.List_style_cuatro, .List_style_cinco{
+    list-style-type: none;
+}
+
+/* disc */
+.List_style_cinco{
+    padding-left: 0;
+}
+
+
+
+/* list-style-image: */
+.list_image{
+    list-style-image: url(Kirara.PNG) ;
+}
+
+
+
+/* position outside */
+.Lista_larga_uno{
+    list-style-position: outside;
+}
+/* position inside */
+.Lista_larga_dos{
+    list-style-position: inside;
+}

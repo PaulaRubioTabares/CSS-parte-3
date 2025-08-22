@@ -246,7 +246,7 @@
 <!-- Width -->
     <h3>Width</h3>
     <p>Está propiedad permite definir el ancho de los elementos</p>
-    <p class="width">En este caso, esté párrafo tiene la propiedad de height: 90px;</p>
+    <p class="width">En este caso, esté párrafo tiene la propiedad de height: 50px;</p>
     <p>Pero este texto tiene palabras que salen de los 50 px del elemento, para corregir esto se utiliza la propiedad de overflow</p>
 <hr>
 
@@ -263,7 +263,7 @@
 
 
 <!-- Outline -->
-    <h2>Outline</h2>
+    <h3>Outline</h3>
     <p>Es un estilo de border que se dentro del margin, pegado al contenido y usa las mismas propiedades de border</p>
     <p class="outline">Este texto tiene la propiedad de: <strong>margin:</strong> 40px; <strong>padding:</strong> 20px; <strong>background-color:</strong> #f0588b; <strong>border:</strong> 5px solid #0a1172; <strong>outline:</strong> 5px solid #369622; </p>
 <hr>
@@ -272,6 +272,212 @@
     <p>Para saber el tamaño de un elemento de la página se deben sumar todas las características mencionadas antes, teniendo
         en cuenta que cuando se define un ancho o largo para el elemento, se refiere al contenido en sí y no a todo el elemento junto con margin y lo demás</p>
 <hr>
+
+
+
+
+<!-- Text shadow -->
+    <h2>Text shadow</h2>
+    <p>Text shadow hace parte de las <strong>propiedades de texto</strong> vistas en la primera parte de esta serie de páginas de css,
+        su función es dar una, como s nombre indica, una sobra al texto dependiendo de los valores que se coloquen. <br>
+        <strong>Recibe 4 valores</strong>, el primero es cuanto se va a desplazar hacia la derecha, el segundo es cuanto se va a mover la sombra hacia abajo,
+        el tercer valor será que tan difuminada va a estar la sombra y el cuarto valor el color </p>
+    <p class="Text_shadow">Este párrafo tiene la propiedad de: text-shadow: 5px 5px 4px #852aee</p>
+<hr>
+
+
+
+
+<!-- Enlaces en Css -->
+    <h2>Enlaces</h2>
+    <p>Recordando que la etiqueta para crear un enlace en html <strong>es a href="" target="_blank".</strong> <br>
+        En css se coloca "a:" y se realiza la selección de todos los enlaces, lo que se indica después de los dos puntos es el estado de ese enlace</p>
+    <ul>
+        <li>a:link -- Enlace no visitado</li>
+        <li>a:visited -- Enlace visitado</li>
+        <li>a:hover -- Enlace señalado con el mouse</li>
+        <li>a:active -- Enlace seleccionado</li>
+    </ul>
+    <p>Esta definición de estados <strong>se pueden colocar individualmente</strong>, pero <strong>para usarlos juntos</strong> se debe tener en cuenta el <strong>orden en que se colocan</strong>, debe ser igual al colocado en la lista</p>
+
+    <a href="https://www.unad.edu.co/" target="_blank">Enlace a Universidad Nacional Abierta y a Distancia UNAD de Colombia</a>
+    <p>Este enlace tiene la siguiente configuración:</p>
+    <ul>
+        <li><strong>a:link -- Enlace no visitado -- background-color: darkviolet</strong></li>
+        <li><strong>a:visited -- Enlace visitado -- background-color: red</strong></li>
+        <li><strong>a:hover -- Enlace señalado con el mouse -- background-color: forestgreen;</strong></li>
+        <li><strong>a:active -- Enlace seleccionado -- background-color: lightsalmon;</strong></li>
+    </ul>
+<hr>
+
+
+
+
+<!-- Listas -->
+    <h2>Listas</h2>
+    <p>En css las listas se pueden modificar de diversas maneras aplicando diferentes estilos</p>
+
+<!-- list-style-type: -->
+    <h3 class="lista">List style type</h3>
+    <p>Primero se van a ver algunas de las <strong>viñetas</strong> que se pueden usar con la propiedad de list style type</p>
+
+<!--                                                Listas numéricas -->
+    <h3 class="tipo_lista">Listas numéricas</h3>
+<!--decimal -->
+    <h4 class="listas">Decimal</h4>
+    <p><strong>List style type decimal, </strong> valor por defecto en las listas ordenadas</p>
+    <ol class="Lista_uno">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+
+<!--  georgian -->
+    <h4 class="listas">Georgian</h4>
+    <p><strong>List style type georgian, </strong> numeración tradicional georgiana</p>
+    <ol class="Lista_dos">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+
+<!-- lower-roman -->
+    <h4 class="listas">Lower roman</h4>
+    <p><strong>List style type lower-roman, </strong> números romanos en minúscula</p>
+    <ol class="Lista_tres">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+
+<!-- upper-roman -->
+    <h4 class="listas">Upper roman</h4>
+    <p><strong>List style type upper-roman, </strong> números romanos en mayúscula</p>
+    <ol class="Lista_cuatro">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+<hr>
+
+<!--                                                Listas alfabéticas -->
+    <h3 class="tipo_lista">Listas alfabéticas</h3>
+    <p>En este caso las listas alfabéticas se declaran como <strong>listas ordenadas</strong>, pero cambia su viñeta</p>
+<!--lower-alpha -->
+    <h4 class="listas">Lower alpha</h4>
+    <p><strong>List style type lower-alpha, </strong> letra alfabética minúscula</p>
+    <ol class="alfabética_uno">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+
+<!--  upper-alpha -->
+    <h4 class="listas">Upper alpha</h4>
+    <p><strong>List style type upper-alpha, </strong> letra alfabética mayúscula</p>
+    <ol class="alfabética_dos">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+
+<!-- lower-greek -->
+    <h4 class="listas">Lower greek</h4>
+    <p><strong>List style type lower-greek, </strong> letras griegas minúsculas</p>
+    <ol class="alfabética_tres">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+<hr>
+
+<!--                                            Listas no ordenadas -->
+    <h3 class="tipo_lista">Listas no ordenadas</h3>
+<!-- disc -->
+    <h4 class="listas">disc</h4>
+    <p><strong>List style type disc, </strong> viñeta por defecto de las listas</p>
+    <ul class="List_style_uno">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+
+<!-- circle -->
+    <h4 class="listas">circle</h4>
+    <p><strong>List style type circle, </strong> cambia el tipo de circulo</p>
+    <ul class="List_style_dos">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+
+<!-- square -->
+    <h4 class="listas">square</h4>
+    <p><strong>List style type square, </strong> coloca viñeta cuadrada</p>
+    <ul class="List_style_tres">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+
+<!-- none -->
+    <h4 class="listas">none</h4>
+    <p><strong>List style type none, </strong> se eliminan las viñetas</p>
+    <ul class="List_style_cuatro">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+    <p>para que en esta última opción no quede <strong>ese espacio vacío de la viñeta</strong>, se debe colocar <strong>padding-lef 0</strong></p>
+    <ul class="List_style_cinco">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+<hr>
+
+
+
+<!-- list style image  -->
+    <h3 class="lista">List style image</h3>
+    <p>Esta propiedad permite que la viñeta a usar en las listas sea una imagen, para ello en css quedaría <strong>list-style-image: url();</strong></p>
+    <ul class="list_image">
+        <li class="li_image">Elemento 1</li>
+        <li class="li_image">Elemento 2</li>
+        <li class="li_image">Elemento 3</li>
+    </ul>
+    <p>Para que la <strong>imagen </strong>se vea bien como viñeta debe ser <strong>muy pequeña</strong>, la <strong>imagen usada tiene un ancho de 35px y un alto de 32px</strong></p>
+<hr>
+
+
+
+<!-- list style position -->
+    <h3 class="lista">List style position</h3>
+    <p>La segunda propiedad de las listas que se va a ver es list style position, cuando se tiene una lista con elementos con mucho texto, tanto que este tiene que hacer un salto de línea, hay dos formas de colocar las viñetas</p>
+
+<!-- position outside -->
+    <h4 class="listas">Position outside</h4>
+    <p><strong>La primera</strong> es dejar que las viñetas estén por defecto</p>
+    <ul class="Lista_larga_uno">
+        <li>Elemento número uno de la lista, en este caso un elemento de la lista con más contenido viñeta con estilo de <strong>list-style-position: outside</strong></li>
+        <li>Elemento número dos de la lista, en este caso un elemento de la lista con más contenido viñeta con estilo de list-style-position: outside</li>
+        <li>Elemento número tres de la lista, en este caso un elemento de la lista con más contenido viñeta con estilo de list-style-position: outside</li>
+        <li>Elemento número cuatro de la lista, en este caso un elemento de la lista con más contenido viñeta con estilo de list-style-position: outside</li>
+    </ul>
+
+<!-- position inside -->
+    <h4 class="listas">Position inside</h4>
+    <p><strong>La segunda</strong> es modificarlas para que hagan parte del texto </p>
+    <ul class="Lista_larga_dos">
+        <li>Elemento número uno de la lista, en este caso un elemento de la lista con más contenido viñeta con el estilo de <strong>list-style-position: inside</strong></li>
+        <li>Elemento número dos de la lista, en este caso un elemento de la lista con más contenido viñeta con el estilo de list-style-position: inside</li>
+        <li>Elemento número tres de la lista, en este caso un elemento de la lista con más contenido viñeta con el estilo de list-style-position: inside</li>
+        <li>Elemento número cuatro de la lista, en este caso un elemento de la lista con más contenido viñeta con el estilo de list-style-position: inside</li>
+    </ul>
+<hr>
+
+
+
 </body>
 </html>
 
