@@ -2,7 +2,9 @@ body{
     font-size: 1.4rem;
 }
 
-
+h2{
+    color: brown;
+}
 
 
 /*  Pseudo elementos  */
@@ -182,6 +184,14 @@ body{
     border: 5px solid #0a1172;
     outline: 5px solid #369622;
 
+}
+
+
+
+
+/* Text shadow */
+.Text_shadow{
+    text-shadow: 5px 5px 4px #852aee;
 }
 
 
