@@ -294,3 +294,14 @@ a:active{
 .list_image{
     list-style-image: url(Kirara.PNG) ;
 }
+
+
+
+/* position outside */
+.Lista_larga_uno{
+    list-style-position: outside;
+}
+/* position inside */
+.Lista_larga_dos{
+    list-style-position: inside;
+}
