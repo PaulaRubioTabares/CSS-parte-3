@@ -195,3 +195,24 @@ h2{
 }
 
 
+
+/* Enlaces en Css  */
+a{
+    color: #f3f3f3;
+}
+
+/* Enlaces */
+a:link{
+    background-color: darkviolet;
+}
+a:visited{
+    background-color: red;
+}
+a:hover{
+    background-color: forestgreen;
+}
+a:active{
+    background-color:lightsalmon;
+}
+
+
