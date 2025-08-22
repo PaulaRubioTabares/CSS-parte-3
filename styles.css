@@ -216,3 +216,74 @@ a:active{
 }
 
 
+
+
+/* Listas títulos */
+.lista{
+    color: #ee2a2a;
+}
+.tipo_lista{
+    color: #257c24b2;
+}
+.listas{
+    color: #852aee;
+}
+
+/* list-style-type */
+
+/*                          Listas numéricas*/
+/* decimal */
+.Lista_uno{
+    list-style-type: decimal;
+}
+/*  georgian */
+.Lista_dos{
+    list-style-type: georgian;
+}
+/* lower-roman*/
+.Lista_tres{
+    list-style-type: lower-roman;
+}
+/*  upper-roman */
+.Lista_cuatro{
+    list-style-type: upper-roman;
+}
+
+/*                          Listas alfabéticas*/
+/* decimal */
+.alfabética_uno{
+    list-style-type: lower-alpha;
+}
+/*  georgian */
+.alfabética_dos{
+    list-style-type: upper-alpha;
+}
+/* lower-roman*/
+.alfabética_tres{
+    list-style-type: lower-greek;
+}
+
+/*                                 Listas no ordenadas */
+/* none: Borrar viñetas */
+.List_style_uno{
+    list-style-type: disc;
+}
+
+/*  circle */
+.List_style_dos{
+    list-style-type: circle;
+}
+/*  square */
+.List_style_tres{
+    list-style-type: square;
+}
+
+/* disc */
+.List_style_cuatro, .List_style_cinco{
+    list-style-type: none;
+}
+
+/* disc */
+.List_style_cinco{
+    padding-left: 0;
+}
